@@ -16,6 +16,12 @@
   },
   "background": {
     "{{chrome}}.service_worker": "background.js",
-    "{{firefox}}.scripts": ["background.js"]
-  }
+    "{{firefox}}.scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ]
 }
